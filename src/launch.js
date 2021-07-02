@@ -124,5 +124,5 @@ const createNavbar = () => {
     renderContainer(menuSetup);
 }
 
-window.addEventListener('load',createNavbar);
+exports.createNavbar = createNavbar;
 
